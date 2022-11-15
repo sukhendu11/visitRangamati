@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rangamati</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header"></div>
+
+    <main class="position-absolute">
+      <section>
+        <div class="banner">
+          <img class="img-fluid w-100" src="/src/img/336.jpg" alt="">
+        </div>
+      </section>
+  
+      <section>
+        <div class="blog-div py-5 container-fluid">
+          <h1 class="text-center">Have unforgettable experiences</h1>
+          <p class="text-center w-75 m-auto pt-2 pb-5">With its unique cuisine, rich culture, some of the most beautiful beaches in the world, breathtaking waterfalls, and adventure for everyone’s liking, all you have to do is choose the perfect type of tourism for you and be amazed by the wonders of Brazil.</p>
+          <div class="row">
+            <div class="col-md-6 container blog-category blog-category-1 d-flex justify-content-between align-items-lg-end pb-4 mb-3 px-5">
+                <h2>Geography and Nature</h2>
+                <button class="button" type="button"><a class="text-decoration-none" href="#">READ MORE</a></button>
+            </div>
+            <div class="col-md-6 container blog-category blog-category-2 d-flex justify-content-between align-items-lg-end pb-4 mb-3 px-5">
+              <h2>Cultures</h2>
+              <button class="button" type="button"><a class="text-decoration-none" href="#">READ MORE</a></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 container blog-category blog-category-3 d-flex justify-content-between align-items-lg-end pb-4 mb-3 px-5">
+                <h2>Amazing Places</h2>
+                <button class="button" type="button"><a class="text-decoration-none" href="#">READ MORE</a></button>
+            </div>
+            <div class="col-md-6 container blog-category blog-category-4 d-flex justify-content-between align-items-lg-end pb-4 mb-3 px-5">
+              <h2>Restaurants</h2>
+              <button class="button" type="button"><a class="text-decoration-none" href="#">READ MORE</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="blog-div category pt-5 container-fluid pb-5 m-auto">
+            <h1 class="text-center">Amazing places to visit</h1>
+            <p class="text-center w-75 m-auto pt-2 pb-5">Brazil has incredible places for you all around the country. Our fantastic destinations are ready for your visit.
+            </p>
+          <h2 class="text-center">Browse by Category</h2>
+          <div class="category container-fluid text-center">
+              <button type="button" class="active filter-button" data-filter="*">All Places</button>
+              <button type="button" class="filter-button" data-filter="waterfall">Waterfalls</button>
+              <button type="button" class="filter-button" data-filter="resort">Resorts</button>
+              <button type="button" class="filter-button" data-filter="restaurant">Restaurants</button>
+          </div>
+          <div id="filter" class="isotope">
+            <div class="categories" data-filter="waterfall">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="pages/aronnok.html" target="_blank" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class=" categories" data-filter="resort">
+              <div class="thumb-img"><img src="src/img/hanging-bridge.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                 
+                <h2 class="text-white">Hanging Bridge</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class=" categories" data-filter="restaurant">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">               
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class=" categories" data-filter="waterfall">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="restaurant">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="restaurant">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="resort">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="resort">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="resort">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="resort">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="restaurant">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories" data-filter="waterfall">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                  
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+            <div class="categories"data-filter="waterfall">
+              <div class="thumb-img"><img src="src/img/aronnok.jpg" alt="aronnyok" class="img-fluid"></div>
+              <div class="thumb-text position-absolute bottom-0 pb-2 text-start px-5 pt-2 d-flex justify-content-between">                 
+                <h2 class="text-white">Aronnyok</h2>
+                <a href="#" class="text-decoration-none read-more">READ MORE+</a>
+              </div>
+            </div>
+          </div>
+          <div class="isotope-pager d-block text-center"></div>
+        </div>
+      </section>
+      <section>
+        <div class="blog-div container-fluid pt-5 pb-2">
+          <h1 class="text-center">Travelling Around Rangamati</h1>
+          <p class="text-center w-75 m-auto pt-2 pb-5">All the necessary information for your trip around Rangamati is here.</p>
+        </div>
+        <div class="container text-start pb-5">
+          <div class="row">
+            <div class="col-md-4 kits me-5">
+              <a href="#" class="text-decoration-none link-dark fs-2">
+                <span><i class="fa-solid fa-briefcase-medical"></i></span>
+                <span>Health</span>
+              </a>
+            </div>
+            <div class="col-md-4 kits mx-5">
+              <a href="#" class="text-decoration-none link-dark fs-2">
+                <span><i class="fa-solid fa-phone"></i></span>
+                <span>Emergency Numbers</span>
+              </a>
+            </div>
+            <div class="col-md-4 kits ms-5">
+              <a href="#" class="text-decoration-none link-dark fs-2">
+                <span><i class="fa-solid fa-shield"></i></i></span>
+                <span>Safety</span>
+              </a>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-md-4 kits me-5">
+              <a href="#" class="text-decoration-none link-dark fs-2">
+                <span><i class="fa-solid fa-battery-full"></i></span>
+                <span>Power</span>
+              </a>
+            </div>
+            <div class="col-md-4 kits mx-5">
+              <a href="#" class="text-decoration-none link-dark fs-2">
+                <span><i class="fa-solid fa-cloud-bolt"></i></span>
+                <span>Local Weather</span>
+              </a>
+            </div>
+            <div class="col-md-4 kits me-5 border-0">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-5 gallery-section">
+        <div class="gallery-div pt-5 pb-5 text-center container mx-auto">
+          <h2 class="pb-3">@VisitRangamati</h2>
+          <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 pt-5 gallery">
+            <div class="col">
+              <a href="/src/img/Gallery_e0add7ea-f.jpg" target="_blank" class="item">
+                <img src="/src/img/Gallery_e0add7ea-f.jpg" alt="Gallery 1" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img/336.jpg" target="_blank" class="item">
+                <img src="/src/img/336.jpg" alt="Gallery 1" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img/999.jpg" target="_blank" class="item">
+                <img src="/src/img/999.jpg" alt="Gallery 2" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img/aronnok.jpg" target="_blank" class="item">
+                <img src="/src/img/aronnok.jpg" alt="Gallery 3" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img/Gallery_1218421b-0.jpg" target="_blank" class="item">
+                <img src="/src/img/Gallery_1218421b-0.jpg" alt="Gallery 4" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img//hanging-bridge.jpg" target="_blank" class="item">
+                <img src="/src/img/hanging-bridge.jpg" alt="Gallery 5" class="img-fluid">
+              </a>
+            </div>
+            <div class="col">
+              <a href="/src/img/277.jpg" target="_blank" class="item">
+                <img src="/src/img/277.jpg" alt="Gallery 6" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="more">Load More</a>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <!--<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>-->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="/src/img/hanging-bridge.jpg" alt="" class="modal-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <div id="backToTop" class="back-to-top text-center  "></div>
+  
+      <div id="footer"></div>
+    </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--<script type="module" src="src/js/pagination.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="/src/js/custom.js"></script>
+</body>
+</html>
