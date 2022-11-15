@@ -217,7 +217,7 @@ $(document).ready(function(){
 });
 
 $(function() {
-	$('#header').load("./html/header.html");
-	$('#footer').load("./html/footer.html");
-	$('#backToTop').load("./html/backToTop.html");
+	$('#header').load("/html/header.html");
+	$('#footer').load("/html/footer.html");
+	$('#backToTop').load("/html/backToTop.html");
 })
