@@ -217,7 +217,7 @@ $(document).ready(function(){
 });
 
 $(function() {
-	$('#header').load("/pages/header.html");
-	$('#footer').load("/pages/footer.html");
-	$('#backToTop').load("/pages/backToTop.html");
+	$('#header').load("visitRangamati/pages/header.html");
+	$('#footer').load("visitRangamati/pages/footer.html");
+	$('#backToTop').load("visitRangamati/pages/backToTop.html");
 })
